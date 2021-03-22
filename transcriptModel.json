@@ -6,51 +6,63 @@
     "year" : 3,
     "semesters" : [
       {
-        "Java": {
-          "lector": "lectorEmail@ukma.edu.ua",
-          "average": 95,
-          "themes": [
-            {
-              "grade": 48,
-              "title": "Basics",
-              "date": "15.10.2020"
-            },
-            {
-              "grade": 47,
-              "title": "Patterns",
-              "date": "25.12.2020"
-            }
-          ]
-        },
-        "DataBase": {
-          "lector": "lector2Email@ukma.edu.ua",
-          "average": 89,
-          "themes": [
-            {
-              "grade": 89,
-              "title": "Basics",
-              "date": "19.11.2020"
-            }
-          ]
-        }
+        "semester": 1,
+        "subjects": [
+          {
+            "Java": {
+              "lector": "lectorEmail@ukma.edu.ua",
+              "average": 95,
+              "themes": [
+                {
+                  "title": "Basics",
+                  "grade": 48,
+                  "date": "15.10.2020"
+                },
+                {
+                  "title": "Patterns",
+                  "grade": 47,
+                  "date": "25.12.2020"
+                }
+              ]
+          }
+          },
+          {
+            "DataBase": {
+              "lector": "lector2Email@ukma.edu.ua",
+              "average": 89,
+              "themes": [
+                {
+                  "title": "Basics",
+                  "grade": 89,
+                  "date": "19.11.2020"
+                }
+              ]
+          }
+          }
+        ]
       },
       {
-        "Web-technologies": {
-          "lector": "lector3Email@ukma.edu.ua",
-          "average": 96,
-          "themes": [
-            {
-              "grade": 53,
-              "title": "CSS",
-              "date": "18.02.2021"
-            },
-            {
-              "grade": 43,
-              "title": "JS",
-              "date": "15.04.2021"
+        "semester": 2,
+        "subjects": [
+          {
+            "Web-technologies": {
+              "lector": "lector3Email@ukma.edu.ua",
+              "average": 96,
+              "themes": [
+                {
+                  "title": "CSS",
+                  "grade": 53,
+                  "date": "18.02.2021"
+                },
+                {
+                  "title": "JS",
+                  "grade": 43,
+                  "date": "15.04.2021"
+                }
+              ]
             }
-          ]
-        }
+          }
+        ]
       }
     ]
   }
