@@ -1,0 +1,57 @@
+{
+  "studentEmail@ukma.edu.ua" : {
+    "fullName" : "Petrenko Vasyl Ivanovych",
+    "faculty" : "Information Technology",
+    "specialty": "Computer Science",
+    "year" : 3,
+    "semesters" : [
+      {
+        "Java": {
+          "lector": "lectorEmail@ukma.edu.ua",
+          "average": 95,
+          "themes": [
+            {
+              "grade": 48,
+              "title": "Basics",
+              "date": "15.10.2020"
+            },
+            {
+              "grade": 47,
+              "title": "Patterns",
+              "date": "25.12.2020"
+            }
+          ]
+        },
+        "DataBase": {
+          "lector": "lector2Email@ukma.edu.ua",
+          "average": 89,
+          "themes": [
+            {
+              "grade": 89,
+              "title": "Basics",
+              "date": "19.11.2020"
+            }
+          ]
+        }
+      },
+      {
+        "Web-technologies": {
+          "lector": "lector3Email@ukma.edu.ua",
+          "average": 96,
+          "themes": [
+            {
+              "grade": 53,
+              "title": "CSS",
+              "date": "18.02.2021"
+            },
+            {
+              "grade": 43,
+              "title": "JS",
+              "date": "15.04.2021"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
